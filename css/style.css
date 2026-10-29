@@ -1,0 +1,307 @@
+:root {
+  --primary: #ff3780;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Unbounded', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.header-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  background-color: #fffdf0;
+  border-bottom: 4px solid var(--primary);
+}
+
+.header-logo {
+  height: 64px;
+  width: auto;
+}
+
+.festival-name {
+  color: var(--primary);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-left: 10px;
+  font-size: 1.2rem;
+}
+
+.header-nav {
+  display: flex;
+  gap: 2rem;
+}
+
+.header-nav span {
+  color: var(--primary);
+  font-weight: 700;
+  text-transform: uppercase;
+  
+}
+
+
+
+.promo-banner img {
+  width: 100%;
+  display: block;
+}
+
+.festival-info {
+  padding: 2rem;
+  background-color: #f9f8f4;
+}
+
+.info-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+}
+
+.info-label {
+  color: var(--primary);
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+}
+
+.info-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 0 0 1rem 0;
+}
+
+.info-desc,
+.info-list li,
+.feature-item p {
+  color: #555;
+  line-height: 1.5;
+}
+
+.info-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.info-list li {
+  margin-bottom: 0.5rem;
+}
+
+.strawberry-image {
+  width: 100%;
+  max-width: 360px;
+  display: block;
+  margin: 0 auto;
+}
+
+.feature-item {
+  margin-bottom: 2.5rem;
+}
+
+.feature-item:last-child {
+  margin-bottom: 0;
+}
+
+.feature-item h3 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin: 0 0 0.5rem 0;
+}
+
+.catalog-section {
+  padding: 2rem;
+  background-color: #EAFFB4;
+}
+
+.catalog-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.catalog-header {
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.catalog-label {
+  color: var(--primary);
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.catalog-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+.catalog-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.5rem;
+}
+
+.catalog-item {
+  background: #F6FFDF;
+  border-radius: 12px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.catalog-image-wrapper {
+  width: 100%;
+  height: 160px;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.catalog-image {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.catalog-item-title {
+  font-size: 1.125rem;
+  font-weight: 700;
+  margin: 0 0 0.5rem 0;
+}
+
+.catalog-item-price {
+  color: #555;
+  font-size: 0.95rem;
+}
+
+.program-section {
+  padding: 2rem;
+  background-color: #F9FDF8;
+}
+
+.program-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.program-label {
+  color: var(--primary);
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+}
+
+.program-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+}
+
+.program-item {
+  background-color: #F6FFDF;
+  border-radius: 12px;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.program-image-wrapper {
+  width: 100%;
+  height: 160px;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.program-image {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.program-title {
+  font-size: 1.125rem;
+  font-weight: 700;
+  margin: 0 0 0.5rem 0;
+}
+
+.program-desc {
+  color: #555;
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+.full-width-banner {
+  width: 100%;
+  background-color: var(--primary);
+  color: #fff;
+  padding: 3rem 0;
+  display: flex;
+  justify-content: center;
+}
+
+.banner-content {
+  max-width: 1400px;
+  width: 100%;
+  padding: 0 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 4rem;
+}
+
+.banner-title {
+  font-size: 3.5rem;
+  font-weight: 700;
+  line-height: 1.1;
+  margin: 0;
+}
+
+.banner-subtitle {
+  font-size: 1.125rem;
+  font-weight: 700;
+  margin-top: 0.5rem;
+  opacity: 0.9;
+}
+
+.banner-details {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  text-align: right;
+}
+
+.detail-row {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.detail-label {
+  font-size: 0.875rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  opacity: 0.8;
+}
+
+.detail-value {
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
